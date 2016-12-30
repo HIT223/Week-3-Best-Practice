@@ -19,9 +19,4 @@ website: {portfolio}
 /*
 	Our imports
 */
-@import 'lib/base.css';
-@import 'lib/utility.css';
-@import 'lib/nav.css';
-@import 'lib/heading.css';
-@import 'lib/content.css';
-@import 'lib/footer.css';
+@import 'lib/styles.css';
