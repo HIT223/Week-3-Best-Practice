@@ -1,0 +1,23 @@
+/*
+Main content area
+*/
+.content{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*
+Add space between the RSS feed and the main content
+*/
+.content__rss {
+	margin-top: 40px;
+}
+
+/*
+Remove the space once we have multiple columns
+*/
+@media screen and (min-width: 481px){
+	.content__rss {
+		margin-top: 0px;
+	}
+}
