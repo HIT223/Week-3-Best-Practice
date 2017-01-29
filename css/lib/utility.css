@@ -1,12 +1,13 @@
 /*
 Utility navigation
 */
-.utility{
-	background-color: #4A148C;
-	color: white;
-	overflow: hidden;
+
+.utility {
+  background-color: #4A148C;
+  color: white;
+  overflow: hidden;
 }
 
-.utility__nav{
-	text-align: right;
+.utility__nav {
+  text-align: right;
 }

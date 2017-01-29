@@ -1,15 +1,17 @@
 /*
 Page heading area
 */
-.heading{
-	background-color: #1976D2;
-	color: white;
-	padding-top: 20px;
-	padding-bottom: 20px;
+
+.heading {
+  background-color: #1976D2;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.heading__tagline{
-	margin-left: 0;
-	font-size: 20px;
-	line-height: 28px;
-	padding-bottom: 28px;
+
+.heading__tagline {
+  margin-left: 0;
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 28px;
 }
