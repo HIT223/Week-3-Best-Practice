@@ -1,0 +1,117 @@
+@import url('http://fonts.googleapis.com/css?family=Vollkorn');
+@import url('http://fonts.googleapis.com/css?family=Esteban');
+
+/********
+NOTE: THIS FILE IS A TEACHING FILE AND MAY NOT BE COPIED FOR ANY ASSESSMENT SUBMISSIONS
+USE OF THIS FILE'S CONTENTS IN A SUBMISSION WILL RESULT IN A FAIL MARK FOR THE ASSESSMENT
+Learn from it and then go and develop your own style sheet
+The file is also not complete and does not fully follow best practice guidelines
+**********/
+body { 
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #fff;
+	font: 90%/1.4 Vollkorn, Lucida Grande, helvetica, arial, sans-serif;
+	/* http://www.w3.org/TR/CSS21/fonts.html#propdef-font */
+	}
+#container {
+	width: 75%;
+	margin: 3%  auto; 
+	}
+header {
+	background: #85b04c;
+	padding: 2%;
+	}
+h1 { 
+	font: 300%/1.2 Esteban, Verdana, helvetica, arial, sans-serif;
+	margin: 0;
+	color: #544cb0;
+}
+nav {
+	background: #a7b04C;
+	padding: 2%;
+	}
+section {
+	border: 2px solid #a7b04C; 
+	}
+#main { 
+	float: left; 
+	width: 52%;
+	margin: 0;
+	padding: 2%;
+	}	
+#secondary { 
+	float: left; 
+	width: 17%; 
+	margin: 0;
+	padding: 2%;
+	}
+article { 
+	float: right;
+	width: 18%;
+	padding: 2%;
+	}
+footer {
+	background: #a7b04C;
+	clear: both;
+	padding: 2%;
+	}
+/* ==== media queries ====================================================== */
+/* ==== apply these extra styles if the viewport is <=825px wide */
+@media only screen and (max-width: 825px) {
+	#container {
+		width: 90%;
+	}
+	#main {
+		width: 65%;
+	}
+	#secondary {
+		width: 20%;
+	}
+	article {
+		float: left;
+		width: 90%;
+	}
+}
+/* ==== apply these extra styles if the viewport is <=625px wide */
+@media only screen and (max-width: 625px) {
+	#container {
+		width: 85%;
+	}
+	#secondary {
+		width: 95%;
+	}
+	#main {
+		width: 95%;
+	}
+}
+
+/* ==== apply these extra styles if the viewport is <=400px wide */
+@media only screen and (max-width: 400px) {
+	#container {
+		width: 95%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
